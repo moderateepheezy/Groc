@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DD8F661D91D063009D7FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD8F651D91D063009D7FF8 /* AppDelegate.swift */; };
+		94DD8F681D91D064009D7FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD8F671D91D064009D7FF8 /* ViewController.swift */; };
+		94DD8F6B1D91D064009D7FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD8F691D91D064009D7FF8 /* Main.storyboard */; };
+		94DD8F6D1D91D065009D7FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DD8F6C1D91D065009D7FF8 /* Assets.xcassets */; };
+		94DD8F701D91D065009D7FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD8F6E1D91D065009D7FF8 /* LaunchScreen.storyboard */; };
+		94DD8F7B1D91D067009D7FF8 /* GrocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD8F7A1D91D067009D7FF8 /* GrocTests.swift */; };
+		94DD8F861D91D067009D7FF8 /* GrocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD8F851D91D067009D7FF8 /* GrocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94DD8F771D91D067009D7FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94DD8F5A1D91D062009D7FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94DD8F611D91D062009D7FF8;
+			remoteInfo = Groc;
+		};
+		94DD8F821D91D067009D7FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94DD8F5A1D91D062009D7FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94DD8F611D91D062009D7FF8;
+			remoteInfo = Groc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94DD8F621D91D062009D7FF8 /* Groc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD8F651D91D063009D7FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94DD8F671D91D064009D7FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94DD8F6A1D91D064009D7FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94DD8F6C1D91D065009D7FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94DD8F6F1D91D065009D7FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94DD8F711D91D065009D7FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD8F761D91D067009D7FF8 /* GrocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD8F7A1D91D067009D7FF8 /* GrocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocTests.swift; sourceTree = "<group>"; };
+		94DD8F7C1D91D067009D7FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD8F811D91D067009D7FF8 /* GrocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD8F851D91D067009D7FF8 /* GrocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocUITests.swift; sourceTree = "<group>"; };
+		94DD8F871D91D067009D7FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DD8F5F1D91D062009D7FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F731D91D067009D7FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F7E1D91D067009D7FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DD8F591D91D062009D7FF8 = {
+			isa = PBXGroup;
+			children = (
+				94DD8F641D91D062009D7FF8 /* Groc */,
+				94DD8F791D91D067009D7FF8 /* GrocTests */,
+				94DD8F841D91D067009D7FF8 /* GrocUITests */,
+				94DD8F631D91D062009D7FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94DD8F631D91D062009D7FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DD8F621D91D062009D7FF8 /* Groc.app */,
+				94DD8F761D91D067009D7FF8 /* GrocTests.xctest */,
+				94DD8F811D91D067009D7FF8 /* GrocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DD8F641D91D062009D7FF8 /* Groc */ = {
+			isa = PBXGroup;
+			children = (
+				94DD8F651D91D063009D7FF8 /* AppDelegate.swift */,
+				94DD8F671D91D064009D7FF8 /* ViewController.swift */,
+				94DD8F691D91D064009D7FF8 /* Main.storyboard */,
+				94DD8F6C1D91D065009D7FF8 /* Assets.xcassets */,
+				94DD8F6E1D91D065009D7FF8 /* LaunchScreen.storyboard */,
+				94DD8F711D91D065009D7FF8 /* Info.plist */,
+			);
+			path = Groc;
+			sourceTree = "<group>";
+		};
+		94DD8F791D91D067009D7FF8 /* GrocTests */ = {
+			isa = PBXGroup;
+			children = (
+				94DD8F7A1D91D067009D7FF8 /* GrocTests.swift */,
+				94DD8F7C1D91D067009D7FF8 /* Info.plist */,
+			);
+			path = GrocTests;
+			sourceTree = "<group>";
+		};
+		94DD8F841D91D067009D7FF8 /* GrocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94DD8F851D91D067009D7FF8 /* GrocUITests.swift */,
+				94DD8F871D91D067009D7FF8 /* Info.plist */,
+			);
+			path = GrocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DD8F611D91D062009D7FF8 /* Groc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD8F8A1D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "Groc" */;
+			buildPhases = (
+				94DD8F5E1D91D062009D7FF8 /* Sources */,
+				94DD8F5F1D91D062009D7FF8 /* Frameworks */,
+				94DD8F601D91D062009D7FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groc;
+			productName = Groc;
+			productReference = 94DD8F621D91D062009D7FF8 /* Groc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94DD8F751D91D067009D7FF8 /* GrocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD8F8D1D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "GrocTests" */;
+			buildPhases = (
+				94DD8F721D91D067009D7FF8 /* Sources */,
+				94DD8F731D91D067009D7FF8 /* Frameworks */,
+				94DD8F741D91D067009D7FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94DD8F781D91D067009D7FF8 /* PBXTargetDependency */,
+			);
+			name = GrocTests;
+			productName = GrocTests;
+			productReference = 94DD8F761D91D067009D7FF8 /* GrocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94DD8F801D91D067009D7FF8 /* GrocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD8F901D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "GrocUITests" */;
+			buildPhases = (
+				94DD8F7D1D91D067009D7FF8 /* Sources */,
+				94DD8F7E1D91D067009D7FF8 /* Frameworks */,
+				94DD8F7F1D91D067009D7FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94DD8F831D91D067009D7FF8 /* PBXTargetDependency */,
+			);
+			name = GrocUITests;
+			productName = GrocUITests;
+			productReference = 94DD8F811D91D067009D7FF8 /* GrocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DD8F5A1D91D062009D7FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SimpuMind;
+				TargetAttributes = {
+					94DD8F611D91D062009D7FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GDMX8HJT5A;
+						ProvisioningStyle = Automatic;
+					};
+					94DD8F751D91D067009D7FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GDMX8HJT5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94DD8F611D91D062009D7FF8;
+					};
+					94DD8F801D91D067009D7FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GDMX8HJT5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94DD8F611D91D062009D7FF8;
+					};
+				};
+			};
+			buildConfigurationList = 94DD8F5D1D91D062009D7FF8 /* Build configuration list for PBXProject "Groc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94DD8F591D91D062009D7FF8;
+			productRefGroup = 94DD8F631D91D062009D7FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DD8F611D91D062009D7FF8 /* Groc */,
+				94DD8F751D91D067009D7FF8 /* GrocTests */,
+				94DD8F801D91D067009D7FF8 /* GrocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DD8F601D91D062009D7FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD8F701D91D065009D7FF8 /* LaunchScreen.storyboard in Resources */,
+				94DD8F6D1D91D065009D7FF8 /* Assets.xcassets in Resources */,
+				94DD8F6B1D91D064009D7FF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F741D91D067009D7FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F7F1D91D067009D7FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DD8F5E1D91D062009D7FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD8F681D91D064009D7FF8 /* ViewController.swift in Sources */,
+				94DD8F661D91D063009D7FF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F721D91D067009D7FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD8F7B1D91D067009D7FF8 /* GrocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD8F7D1D91D067009D7FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD8F861D91D067009D7FF8 /* GrocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94DD8F781D91D067009D7FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94DD8F611D91D062009D7FF8 /* Groc */;
+			targetProxy = 94DD8F771D91D067009D7FF8 /* PBXContainerItemProxy */;
+		};
+		94DD8F831D91D067009D7FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94DD8F611D91D062009D7FF8 /* Groc */;
+			targetProxy = 94DD8F821D91D067009D7FF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94DD8F691D91D064009D7FF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD8F6A1D91D064009D7FF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94DD8F6E1D91D065009D7FF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD8F6F1D91D065009D7FF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DD8F881D91D067009D7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94DD8F891D91D067009D7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DD8F8B1D91D067009D7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = Groc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.Groc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94DD8F8C1D91D067009D7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = Groc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.Groc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94DD8F8E1D91D067009D7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = GrocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.GrocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groc.app/Groc";
+			};
+			name = Debug;
+		};
+		94DD8F8F1D91D067009D7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = GrocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.GrocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groc.app/Groc";
+			};
+			name = Release;
+		};
+		94DD8F911D91D067009D7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = GrocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.GrocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Groc;
+			};
+			name = Debug;
+		};
+		94DD8F921D91D067009D7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
+				INFOPLIST_FILE = GrocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpumind.GrocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Groc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DD8F5D1D91D062009D7FF8 /* Build configuration list for PBXProject "Groc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD8F881D91D067009D7FF8 /* Debug */,
+				94DD8F891D91D067009D7FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DD8F8A1D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "Groc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD8F8B1D91D067009D7FF8 /* Debug */,
+				94DD8F8C1D91D067009D7FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94DD8F8D1D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "GrocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD8F8E1D91D067009D7FF8 /* Debug */,
+				94DD8F8F1D91D067009D7FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94DD8F901D91D067009D7FF8 /* Build configuration list for PBXNativeTarget "GrocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD8F911D91D067009D7FF8 /* Debug */,
+				94DD8F921D91D067009D7FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DD8F5A1D91D062009D7FF8 /* Project object */;
+}
